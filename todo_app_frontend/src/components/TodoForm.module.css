@@ -1,0 +1,27 @@
+.form {
+  margin: 32px 24px 8px 24px;
+  display: flex;
+  gap: 8px;
+}
+.input {
+  flex: 1 1 auto;
+  font-size: 17px;
+  border: 1.5px solid #c4c4c4;
+  border-radius: var(--radius-md);
+  padding: 8px 13px;
+  outline: none;
+}
+.addBtn {
+  background: var(--color-3b3b3b);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-lg);
+  padding: 9px 18px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.16s;
+}
+.addBtn:hover {
+  background: #222;
+}

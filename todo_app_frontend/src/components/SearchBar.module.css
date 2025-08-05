@@ -1,0 +1,15 @@
+.search {
+  width: 120px;
+  background: #272727;
+  color: #fafafa;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-family: inherit;
+  padding: 7px 10px;
+  margin-left: 6px;
+  outline: none;
+}
+.search::placeholder {
+  color: #b0b0b0;
+}
